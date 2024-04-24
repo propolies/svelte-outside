@@ -1,6 +1,6 @@
 {
   "name": "svelte-outside",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A svelte use directive for click/tap outside an element.",
   "author": {
     "name": "propolies",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/propolies/svelte-api.git",
+    "url": "git+https://github.com/propolies/svelte-outside.git",
     "directory": "package"
   },
   "main": "index.js",
