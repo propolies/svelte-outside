@@ -1,0 +1,30 @@
+{
+  "name": "svelte-outside",
+  "version": "0.0.0-pre.1",
+  "description": "A svelte use directive for clicking/tapping outside an element.",
+  "author": {
+    "name": "propolies",
+    "url": "https://github.com/propolies"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/propolies/svelte-api.git",
+    "directory": "package"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.4.5"
+  }
+}
