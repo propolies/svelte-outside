@@ -1,6 +1,6 @@
 {
   "name": "svelte-outside",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A svelte use directive for click/tap outside an element.",
   "author": {
     "name": "propolies",

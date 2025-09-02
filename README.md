@@ -12,24 +12,14 @@ npm install svelte-outside
 
 ## Usage
 
-**Click outside**
 ```svelte
 <script lang="ts">
-	import { clickOutside } from "svelte-outside"
+  import { clickOutside, tapOutside } from "svelte-outside"
 </script>
 
 <div use:clickOutside={(e) => console.log("Clicked outside!")}>
-  Click outside me!
+  Content
 </div>
 ```
 
-**Tap outside**
-```svelte
-<script lang="ts">
-	import { tapOutside } from "svelte-outside"
-</script>
-
-<div use:tapOutside={(e) => console.log("Tap outside!")}>
-  Tap outside me!
-</div>
-```
+Example usage [Svelte Playground](https://svelte.dev/playground/3c3162a857324d0db0f8bdf7fa4845d3?version=latest)
