@@ -2,7 +2,7 @@
 
 [![npm version](https://flat.badgen.net/npm/v/svelte-outside?color=orange)](https://npmjs.com/package/svelte-outside)
 
-A svelte use directive for click/tap outside an element.
+A svelte use directive to handle clicks/taps outside of an element.
 
 ## Installation
 
